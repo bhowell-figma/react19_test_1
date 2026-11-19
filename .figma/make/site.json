@@ -1,0 +1,10 @@
+{
+  "description": "A developer tool that bootstraps imported projects and verifies deployment and preview setups, helping teams prepare new apps for release.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
