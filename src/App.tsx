@@ -242,7 +242,7 @@ export default function App() {
           />
           <Space>
             <Button type="text">Log In</Button>
-            <Button type="primary">Get Started</Button>
+            <Button type="primary">Sign Up</Button>
           </Space>
         </Header>
 
