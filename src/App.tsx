@@ -256,6 +256,18 @@ export default function App() {
               textAlign: 'center',
             }}
           >
+            <Paragraph
+              style={{
+                fontSize: 20,
+                color: '#595959',
+                maxWidth: 560,
+                margin: '0 auto 40px',
+                lineHeight: 1.6,
+              }}
+            >
+              Join 2 million investors who trust Apex Finance to grow, protect,
+              and transfer their wealth — from first dollar to generational legacy.
+            </Paragraph>
             <Space orientation="vertical" size={0} style={{ width: '100%' }}>
               <Space size={8} style={{ marginBottom: 24 }}>
                 <Tag color="blue" icon={<SafetyCertificateOutlined />}>FDIC Insured</Tag>
@@ -275,23 +287,11 @@ export default function App() {
               >
                 Your Wealth,<br />Intelligently Managed
               </Title>
-              <Paragraph
-                style={{
-                  fontSize: 20,
-                  color: '#595959',
-                  maxWidth: 560,
-                  margin: '0 auto 40px',
-                  lineHeight: 1.6,
-                }}
-              >
-                Join 2 million investors who trust Apex Finance to grow, protect,
-                and transfer their wealth — from first dollar to generational legacy.
-              </Paragraph>
               <Space size={16} wrap style={{ justifyContent: 'center' }}>
+                <Button size="large">Schedule a Consultation</Button>
                 <Button type="primary" size="large" icon={<ArrowRightOutlined />} iconPlacement="end">
                   Start Investing Free
                 </Button>
-                <Button size="large">Schedule a Consultation</Button>
               </Space>
               <Text type="secondary" style={{ marginTop: 16, display: 'block', fontSize: 13 }}>
                 No minimums. No hidden fees. Cancel anytime.
